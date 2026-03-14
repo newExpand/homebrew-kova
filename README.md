@@ -6,10 +6,11 @@
 
 ```bash
 brew tap newExpand/kova
-brew install --no-quarantine --cask kova
+brew install --cask kova
+xattr -d com.apple.quarantine /Applications/Kova.app
 ```
 
-> **Note**: `--no-quarantine` is required because the app is not yet code-signed. This is standard for early-stage open source macOS apps.
+> **Note**: The `xattr` step is required because the app is not yet code-signed. This is standard for early-stage open source macOS apps.
 
 ## Uninstall
 
