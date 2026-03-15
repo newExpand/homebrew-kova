@@ -2,12 +2,12 @@ cask "kova" do
   version "0.1.0"
 
   on_arm do
-    sha256 "18781f5ef9e607d755523eb40880b2c42e6cb2c1d39c7c7d710152fc2b0a95cf"
+    sha256 "15094fe2e1a52fbe2ec2de372f2f8e0e676e7a53331e3897fd5634eff1346fb9"
     url "https://github.com/newExpand/kova/releases/download/v#{version}/Kova_#{version}_aarch64.dmg"
   end
 
   on_intel do
-    sha256 "ad7427e4a530aabb094a56f47108c89e52e18faace6fe988e2129bfb53a15aef"
+    sha256 "f908cd35c0d1ffd3f518644a6d3f59bdeeef2b499887d19c5957f0b42c25261f"
     url "https://github.com/newExpand/kova/releases/download/v#{version}/Kova_#{version}_x64.dmg"
   end
 
